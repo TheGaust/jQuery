@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    background-color: #5c5c5c;
+}
+
+header {
+    background-color: #252525;
+    padding: 16px 0;
+    color: #f1f1f1;
+    display: flex;
+    border-bottom: 16px solid #1f1f1f;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h1 {
+    background-color: #252525;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #333333;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    font-family: roboto, sans-serif;
+    margin-bottom: 16px;
+    background-color: #333333;
+    color: #f1f1f1;
+    font-size: 38px;
+}
+
+input, button {
+    padding: 8px;
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+
+button:hover {
+    background-color: #005a1e;
+    transition: 700ms;
+}
+
+#cancel {
+    background-color: rgb(221, 0, 0);
+}
+
+#cancel:hover {
+    background-color: rgb(145, 0, 0);
+    transition: 700ms;
+}
+
+ul {
+    font-size: 20px;
+}
+
+ul li{
+    color: #f1f1f1;
+    padding: 4px;
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
