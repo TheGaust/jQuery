@@ -1,92 +1,56 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: roboto, sans-serif;
-    background-color: #5c5c5c;
+    font-family: Roboto, sans-serif;
 }
 
-header {
-    background-color: #252525;
-    padding: 16px 0;
+body {
+    background-color: #505050;
+    padding-top: 16px 0;
     color: #f1f1f1;
-    display: flex;
-    border-bottom: 16px solid #1f1f1f;
-    justify-content: center;
-    text-transform: uppercase;
-    font-style: italic;
 }
 
-h1 {
-    background-color: #252525;
-}
-
-header button {
-    margin-left: 16px;
-}
-
-form {
-    background-color: #333333;
-    padding: 24px 0;
-    text-align: center;
-    display: none;
-}
-
-form h2 {
-    font-family: roboto, sans-serif;
-    margin-bottom: 16px;
-    background-color: #333333;
-    color: #f1f1f1;
-    font-size: 38px;
-}
-
-input, button {
-    padding: 8px;
-    background-color: #f1f1f1;
+.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
 }
 
 button {
-    background-color: #009432;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
     border: none;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
+    background-color: #a0a0a0;
     color: #f1f1f1;
-}
-
-button:hover {
-    background-color: #005a1e;
-    transition: 700ms;
-}
-
-#cancel {
-    background-color: rgb(221, 0, 0);
-}
-
-#cancel:hover {
-    background-color: rgb(145, 0, 0);
-    transition: 700ms;
-}
-
-ul {
-    font-size: 20px;
-}
-
-ul li{
-    color: #f1f1f1;
-    padding: 4px;
+    font-size: 16px;
     font-weight: bold;
-    font-family: roboto, sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-ul:hover {
+    font-style: italic;
     cursor: pointer;
+    border-radius: 16px;
 }
 
-.riscado {
-    text-decoration: line-through;
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+.form-campo input {
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    display: block;
+    padding: 8px;
 }
